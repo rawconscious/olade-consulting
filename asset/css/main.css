@@ -104,13 +104,15 @@ ul, ol { padding: 0; margin: 0; }
 
 @media only screen and (max-width: 768px) { .header__logo { padding: 15px 0 15px; text-align: left; } }
 
-.header__logo::before { position: absolute; left: -400px; top: 0; width: 580px; height: 100%; background: #2A78AB; content: ''; z-index: -1; -webkit-clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%); clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%); }
+.header__logo::before { display: none; position: absolute; left: -400px; top: 0; width: 580px; height: 100%; background: #2A78AB; content: ''; z-index: -1; -webkit-clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%); clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%); }
 
 @media only screen and (max-width: 768px) { .header__logo::before { width: 600px; } }
 
 .header__logo a { display: inline-block; /*@media only screen and (max-width: 768px) { display: flex; justify-content: center; }*/ }
 
-.header__logo a img { margin-left: -20%; }
+.header__logo a img { margin-left: -2vh; }
+
+@media only screen and (max-width: 768px) { .header__logo a img { margin: 0; max-width: 50%; } }
 
 @media only screen and (max-width: 768px) { .header__logo a img { margin: 0; max-width: 50%; } }
 
