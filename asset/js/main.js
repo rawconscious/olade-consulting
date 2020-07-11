@@ -9,36 +9,40 @@
 
 'use strict';
 
-(function ($) {
+(function($) {
 
     /*------------------
         Preloader
     --------------------*/
+    /*
     $(window).on('load', function () {
         $(".loader").fadeOut();
         $("#preloder").delay(200).fadeOut("slow");
     });
+    */
+
 
     /*------------------
         Background Set
     --------------------*/
-    $('.set-bg').each(function () {
+    $('.set-bg').each(function() {
         var bg = $(this).data('setbg');
         $(this).css('background-image', 'url(' + bg + ')');
     });
 
     //Canvas Menu
-    $(".canvas__open").on('click', function () {
+    $(".canvas__open").on('click', function() {
         $(".offcanvas-menu-wrapper").addClass("active");
         $(".offcanvas-menu-overlay").addClass("active");
     });
 
-    $(".offcanvas-menu-overlay").on('click', function () {
+    $(".offcanvas-menu-overlay").on('click', function() {
         $(".offcanvas-menu-wrapper").removeClass("active");
         $(".offcanvas-menu-overlay").removeClass("active");
     });
 
-     //Search Switch
+    //Search Switch
+    /*
      $('.search-switch').on('click',function() {
         $('.search-model').fadeIn(400);
     });
@@ -48,6 +52,7 @@
             $('#search-input').val('');
         });
     });
+    */
 
     /*------------------
 		Navigation
@@ -60,14 +65,14 @@
     /*------------------
         Accordin Active
     --------------------*/
-    $('.collapse').on('shown.bs.collapse', function () {
+    $('.collapse').on('shown.bs.collapse', function() {
         $(this).prev().addClass('active');
     });
 
-    $('.collapse').on('hidden.bs.collapse', function () {
+    $('.collapse').on('hidden.bs.collapse', function() {
         $(this).prev().removeClass('active');
     });
-    
+
     /*--------------------------
         Testimonial Slider
     ----------------------------*/
@@ -97,6 +102,6 @@
     /*--------------------------
         Datepicker
     ----------------------------*/
-    $( ".datepicker_pop" ).datepicker();
+    $(".datepicker_pop").datepicker();
 
 })(jQuery);
