@@ -14,13 +14,12 @@
     /*------------------
         Preloader
     --------------------*/
-    /*
+/*
     $(window).on('load', function () {
         $(".loader").fadeOut();
         $("#preloder").delay(200).fadeOut("slow");
     });
-    */
-
+*/
 
     /*------------------
         Background Set
@@ -31,7 +30,7 @@
     });
 
     //Canvas Menu
-    $(".canvas__open").on('click', function() {
+    $(".canvas__open_custom").on('click', function() {
         $(".offcanvas-menu-wrapper").addClass("active");
         $(".offcanvas-menu-overlay").addClass("active");
     });
