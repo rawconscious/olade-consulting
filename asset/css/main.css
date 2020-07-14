@@ -49,9 +49,9 @@ ul, ol { padding: 0; margin: 0; }
 /* buttons */
 .primary-btn { display: inline-block; font-size: 14px; font-weight: 700; text-transform: uppercase; padding: 14px 30px; color: #ffffff; background: #2A78AB; letter-spacing: 1px; }
 
-.primary-btn.second-bg { background: #0c2b4b; }
+.primary-btn.second-bg { background: #001d3a; }
 
-.site-btn { font-size: 14px; color: #ffffff; background: #0c2b4b; font-weight: 700; letter-spacing: 1px; border: none; text-transform: uppercase; display: inline-block; padding: 14px 30px; }
+.site-btn { font-size: 14px; color: #ffffff; background: #001d3a; font-weight: 700; letter-spacing: 1px; border: none; text-transform: uppercase; display: inline-block; padding: 14px 30px; }
 
 .site-btn.second-bg { background: #2A78AB; }
 
@@ -96,7 +96,7 @@ ul, ol { padding: 0; margin: 0; }
 .search-close-switch { position: absolute; width: 50px; height: 50px; background: #333; color: #fff; text-align: center; border-radius: 50%; font-size: 28px; line-height: 28px; top: 30px; cursor: pointer; -webkit-transform: rotate(45deg); transform: rotate(45deg); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 /*--------------------- Header -----------------------*/
-.header { background: #0c2b4b; position: sticky; left: 0; top: 0; width: 100%; z-index: 98; padding: 20px 0 20px; }
+.header { background: #001d3a; position: sticky; left: 0; top: 0; width: 100%; z-index: 98; padding: 20px 0 20px; }
 
 .header.header--normal { position: relative; }
 
@@ -263,7 +263,7 @@ ul, ol { padding: 0; margin: 0; }
 
 .application-form.pricing--page .application__form__content form .nice-select:after { border-bottom: 1.5px solid rgba(17, 17, 17, 0.7); border-right: 1.5px solid rgba(17, 17, 17, 0.7); }
 
-.application-form .application__form__content { background: #0c2b4b; padding: 70px; }
+.application-form .application__form__content { background: #001d3a; padding: 70px; }
 
 .application-form .application__form__content .section-title span { color: #ffffff; }
 
@@ -298,7 +298,7 @@ ul, ol { padding: 0; margin: 0; }
 
 .pricing.pricing--page .pricing__item { background: #f5f5f5; }
 
-.pricing.pricing--page .pricing__item:hover { background: #0c2b4b; }
+.pricing.pricing--page .pricing__item:hover { background: #001d3a; }
 
 .pricing.pricing--page .pricing__item:hover .pricing__item__title span { color: #ffffff; }
 
@@ -377,7 +377,7 @@ ul, ol { padding: 0; margin: 0; }
 .course__item a { display: inline-block; font-size: 14px; color: #111111; text-transform: uppercase; font-weight: 700; position: relative; padding: 0 0 6px; border-bottom: 2px solid #2A78AB; }
 
 /*--------------------- Footer -----------------------*/
-.footer { padding-top: 70px; background: #0c2b4b; }
+.footer { padding-top: 70px; background: #001d3a; }
 
 .footer__widget { margin-bottom: 30px; }
 
@@ -466,7 +466,7 @@ ul, ol { padding: 0; margin: 0; }
 
 .testimonial__slider.owl-carousel .owl-dots button:last-child { margin-right: 0; }
 
-.testimonial__item .quote-icon i { font-size: 24px; color: #0c2b4b; }
+.testimonial__item .quote-icon i { font-size: 24px; color: #001d3a; }
 
 .testimonial__item p { font-size: 16px; color: #ffffff; line-height: 27px; font-style: italic; margin-bottom: 20px; margin-top: 6px; }
 
@@ -489,7 +489,7 @@ ul, ol { padding: 0; margin: 0; }
 
 .feature__text p { margin-bottom: 26px; }
 
-.feature__item { background: #0c2b4b; text-align: center; padding: 40px 10px 35px; margin-bottom: 30px; }
+.feature__item { background: #001d3a; text-align: center; padding: 40px 10px 35px; margin-bottom: 30px; }
 
 .feature__item.right-column { margin-top: 120px; }
 
@@ -546,7 +546,7 @@ ul, ol { padding: 0; margin: 0; }
 
 .course__details__location__address p span { font-weight: 700; }
 
-.course__details__sidebar__register h5 { color: #ffffff; font-weight: 700; text-transform: uppercase; background: #0c2b4b; padding: 25px 30px 22px; }
+.course__details__sidebar__register h5 { color: #ffffff; font-weight: 700; text-transform: uppercase; background: #001d3a; padding: 25px 30px 22px; }
 
 .course__details__sidebar__register form { background: #f5f5f5; padding: 30px; }
 
@@ -664,7 +664,7 @@ ul, ol { padding: 0; margin: 0; }
 
 .pagination__option a:last-child { margin-right: 0; }
 
-.pagination__option a:hover { background: #0c2b4b; color: #ffffff; }
+.pagination__option a:hover { background: #001d3a; color: #ffffff; }
 
 /*--------------------- Blog Sidebar -----------------------*/
 .blog__sidebar { padding-left: 40px; }
@@ -840,7 +840,7 @@ ul, ol { padding: 0; margin: 0; }
 
 .contact__address ul li:last-child { margin-bottom: 0; }
 
-.contact__address ul li .icon { font-size: 20px; color: #2A78AB; height: 50px; width: 50px; background: #0c2b4b; border-radius: 50%; line-height: 50px; text-align: center; float: left; margin-right: 20px; }
+.contact__address ul li .icon { font-size: 20px; color: #2A78AB; height: 50px; width: 50px; background: #001d3a; border-radius: 50%; line-height: 50px; text-align: center; float: left; margin-right: 20px; }
 
 .contact__address ul li p { overflow: hidden; margin-bottom: 0; color: #111111; }
 
